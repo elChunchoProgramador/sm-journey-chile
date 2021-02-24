@@ -3,8 +3,11 @@
 html{
     background-color: #000000; /*0f2852bf, E5E5E5*/
     /*font-family: -webkit-pictograph;*/
+    color: white;
     font-family: 'DotGothic16', sans-serif;    
 }
+
+
 
 
 /* IMAGEN PORTADA */
@@ -40,43 +43,41 @@ html{
     font-size: 100px;
     text-align: center;
     margin-top: 20%;
-    /*
-    margin-left: 20%;
-    margin-right: 10px;
-    */
 }
 
+.figura-perfil{
+    float: left;
+    width: 25%;
+}
 
+.descri-perfil{
+    width: 100%;
+}
 
 .imagen-perfil{
-    display: inline-block;
-    background-image: url("img/salva.jpg");
     background-size: cover;
-    position: absolute;
     width: 250px;
     height: 250px;
-    margin: 120px;
-    margin-top: -120px;
-    /*margin-left: 250px;*/
+    margin: 50px;
     background-color: black;
-    border-radius: 100px;
-    
+    border-radius: 100px;   
 }
 /* IMAGEN PORTADA */
 
 
-.ubicacion{
-    text-align: center;
-    color: white;
+/* barra lateral */
+figure{
+    float: right;
+    width: 100%;
+    margin-left: 80px;
 }
 
-
-/* barra lateral */
-
 .caja-imagen{
+    
+    display: inline-block;
+    margin-left: 120px;
     width: 25%;
     height: auto;
-    margin-top: 80px;
 }
 
 .caja-imagen img{
@@ -88,4 +89,17 @@ html{
     color: white;
     text-align: center;
 }
+
+.caja-imagen-dos{
+    
+    display: inline-block;
+    width: 25%;
+    height: auto;
+}
+
+.caja-imagen-dos img{
+    width: 100%;
+    height: 100%;
+}
+
 /* barra lateral */
