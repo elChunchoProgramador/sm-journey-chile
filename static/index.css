@@ -48,6 +48,7 @@ html{
 .figura-perfil{
     float: left;
     width: 25%;
+    height: 100%;
 }
 
 .descri-perfil{
@@ -103,3 +104,20 @@ figure{
 }
 
 /* barra lateral */
+
+.caja-imagen-tres{
+    float: right;
+    width: 65%;
+    height: 735px;
+    margin-left: 20px;
+}
+
+.figura-img-rotada{
+    width: 100%;
+    height: 100%;
+}
+
+.img-rotar{
+    width: 100%;
+    height: 100%;
+}
